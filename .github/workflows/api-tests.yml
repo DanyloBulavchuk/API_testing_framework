@@ -1,0 +1,30 @@
+name: Automated API Tests (Newman)
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Install Newman & Reporters
+        run: npm install -g newman newman-reporter-htmlextra
+
+      - name: Execute Postman Test Suite
+        run: |
+          newman run Restful_Booker_Collection.json \
+            -e Restful_Booker_Environment.json \
+            --reporters cli
