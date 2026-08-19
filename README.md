@@ -54,3 +54,9 @@ Every request contains JavaScript test scripts validating:
 1. Clone this repository:
    ```bash
    git clone [https://github.com/](https://github.com/)DanyloBulavchuk/API_testing_framework.git
+   Open Postman > Click Import > Select Restful_Booker_Collection.json and Restful_Booker_Environment.json.
+   Select the Restful-Booker Environment in the top right dropdown.
+   Open Collection Runner > Click Run Restful Booker Collection.Option
+
+B: Via Command Line (Newman)
+Prerequisite: Node.js installed.
