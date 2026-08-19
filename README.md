@@ -1,6 +1,15 @@
 # API_testing_framework
 Automated REST API test suite for a booking management system using Postman, JavaScript assertions, and Newman CLI.
 
+<div align="center">
+
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Newman](https://img.shields.io/badge/CLI-Newman-orange?style=for-the-badge)
+![API Testing](https://img.shields.io/badge/Testing-REST%20API-blue?style=for-the-badge)
+
+</div>
+
 # RESTful Booker API Test Suite
 
 Comprehensive automated and manual API testing suite built for the **Restful-Booker API** using **Postman** and **Newman CLI**.
