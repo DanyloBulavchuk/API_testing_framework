@@ -5,10 +5,10 @@ Automated REST API test suite for a booking management system using Postman, Jav
 
 Comprehensive automated and manual API testing suite built for the **Restful-Booker API** using **Postman** and **Newman CLI**.
 
-## 📌 Project Overview
+## Project Overview
 This repository contains a full end-to-end API test suite designed to validate functional requirements, data integrity, error handling, and response performance of a booking management system.
 
-## 🛠️ Tech Stack & Tools
+## Tech Stack & Tools
 - **Tool:** Postman v10+
 - **CLI Runner:** Newman
 - **Format:** JSON / REST
@@ -17,7 +17,7 @@ This repository contains a full end-to-end API test suite designed to validate f
 
 ---
 
-## 🧪 Test Coverage & Scenarios
+## Test Coverage & Scenarios
 
 ### 1. Authentication & Security
 - `POST /auth`: Generating Bearer/Auth tokens for secure admin endpoints.
@@ -53,4 +53,4 @@ Every request contains JavaScript test scripts validating:
 ### Option A: In Postman App
 1. Clone this repository:
    ```bash
-   git clone [https://github.com/](https://github.com/)<YOUR-USERNAME>/api-testing-framework-postman.git
+   git clone [https://github.com/](https://github.com/)DanyloBulavchuk/API_testing_framework.git
