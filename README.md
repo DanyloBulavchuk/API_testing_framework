@@ -39,7 +39,7 @@ This repository contains a full end-to-end API test suite designed to validate f
 
 ---
 
-## 💻 Automated Assertions Implemented
+## Automated Assertions Implemented
 Every request contains JavaScript test scripts validating:
 - **Status Code Validation:** `pm.response.to.have.status(200)`
 - **Response Time SLAs:** Response latency is within threshold (`< 800ms`)
@@ -48,7 +48,7 @@ Every request contains JavaScript test scripts validating:
 
 ---
 
-## 🚀 How to Run Locally
+## How to Run Locally
 
 ### Option A: In Postman App
 1. Clone this repository:
