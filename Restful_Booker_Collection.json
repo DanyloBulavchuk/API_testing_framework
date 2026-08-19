@@ -268,30 +268,3 @@
 		}
 	]
 }
-4. Файл Restful_Booker_Environment.json (Створіть у корені репозиторію)
-JSON
-{
-	"id": "e1f2a3b4-5678-90ab-cdef-1234567890ab",
-	"name": "Restful-Booker Environment",
-	"values": [
-		{
-			"key": "baseUrl",
-			"value": "https://restful-booker.herokuapp.com",
-			"type": "default",
-			"enabled": true
-		},
-		{
-			"key": "authToken",
-			"value": "",
-			"type": "secret",
-			"enabled": true
-		},
-		{
-			"key": "bookingId",
-			"value": "",
-			"type": "default",
-			"enabled": true
-		}
-	],
-	"_postman_variable_scope": "environment"
-}
